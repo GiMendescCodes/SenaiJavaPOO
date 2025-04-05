@@ -1,5 +1,5 @@
 package Models;
-
+//Extends -> herança(pois é filha
 public class Fabricante extends ModelosAno{
     public Long Id;
     public String Modelo;
