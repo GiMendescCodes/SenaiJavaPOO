@@ -1,4 +1,5 @@
 import Models.Carro;
+import Models.ContaBancaria;
 import Models.Fabricante;
 
 public class Main {
@@ -19,5 +20,13 @@ public class Main {
 
             Fabricante fab = new Fabricante();
             fab.VeiculoDoAno();
+
+            ContaBancaria Saldo = new ContaBancaria();
+
+
+//            Encapsulamento
+
+            Saldo.Depositar(357.55);
+            System.out.println(Saldo.getSaldo());
         }
     }
