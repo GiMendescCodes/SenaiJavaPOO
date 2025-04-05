@@ -1,4 +1,5 @@
 package Models;
 
-public class Veiculo {
+    public abstract class Veiculo {
+    public abstract void MoverVeiculo();
 }
