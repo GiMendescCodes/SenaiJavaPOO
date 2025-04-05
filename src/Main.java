@@ -1,4 +1,5 @@
 import Models.Carro;
+import Models.Fabricante;
 
 public class Main {
         public static void main(String[] args) {
@@ -13,5 +14,8 @@ public class Main {
 
             carro1.ExibirInfo();
             carro1.MoverVeiculo();
+
+            Fabricante fab = new Fabricante();
+            fab.VeiculoDoAno();
         }
     }

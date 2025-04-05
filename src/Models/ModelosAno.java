@@ -1,6 +1,8 @@
 package Models;
 
-public class fabricante {
-    void  veiculoDoAno("Carro de corrida");
+public class ModelosAno {
+    public void  VeiculoDoAno(){
+        System.out.println("Carro de corrida XYZ");
+    }
 
 }
